@@ -3,9 +3,6 @@ public class MoveZeroesAtEnd {
     public static void main(String[] args) {
         int[] num = {0, 1, 0, 3, 12};
         moveZeroes(num);
-
-
-
         for (int n : num) {
             System.out.print(n + " ");
         }
